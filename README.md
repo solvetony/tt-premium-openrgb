@@ -22,6 +22,10 @@ npm run lint
 npm test
 ```
 
+## Usage example
+
+Screenshots and a working example are available in this [X post](https://x.com/quellemor/status/2102510499216970009).
+
 `src/data/x1-led-map.js` preserves the supplied protocol label order.
 `src/data/x1-layout.js` independently defines physical positions. A is LED 5,
 not LED 20 (F). LED 45 is the quote key immediately before Enter. LEDs 101
