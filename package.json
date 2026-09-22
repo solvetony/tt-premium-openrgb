@@ -1,0 +1,14 @@
+{
+  "name": "tt-premium-openrgb",
+  "license": "GPL-2.0-only",
+  "private": true,
+  "type": "module",
+  "standard": { "env": ["browser"] },
+  "scripts": {
+    "lint": "standard 'src/**/*.js' 'src/**/*.jsx' '*.mjs'",
+    "test": "node --test test.mjs",
+    "build": "node build.mjs"
+  },
+  "dependencies": { "preact": "^10.26.0", "lucide-preact": "^0.468.0" },
+  "devDependencies": { "esbuild": "^0.25.0", "standard": "^17.1.2" }
+}
